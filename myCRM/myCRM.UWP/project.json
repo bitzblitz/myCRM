@@ -1,5 +1,7 @@
 ﻿{
   "dependencies": {
+    "Acr.UserDialogs": "6.2.5",
+    "FreshMvvm": "2.2.0",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "Xamarin.Forms": "2.0.0.6482"
   },
