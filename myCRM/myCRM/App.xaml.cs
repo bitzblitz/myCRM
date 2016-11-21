@@ -24,7 +24,7 @@ namespace myCRM
 		private void SetupIOC()
 			{
 			FreshMvvm.FreshIOC.Container.Register<IDataService, DataService>();
-			FreshMvvm.FreshIOC.Container.Register<IUserDialogs>(UserDialogs.Instance);
+			FreshMvvm.FreshIOC.Container.Register(UserDialogs.Instance);
 			}
 
 		private void SetupSingleNav()
